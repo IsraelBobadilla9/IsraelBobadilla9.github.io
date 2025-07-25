@@ -11,15 +11,15 @@ export const AboutSection = () =>{
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                     <h3 className="text-2xl font-semibold">
-                        Passionate Web Developer & Tech Creator
+                        Developer passionate about new technologies
                     </h3>
                     <p className="text-muted-foreground">
                         {" "}
-                        With over 5 years of experience
+                       With over three years of experience as a full-stack developer, focused on creating systems that require high availability, as well as process optimization and automation, all with cutting-edge technologies.
                     </p>
                     <p className="text-muted-foreground">
                         {" "}
-                        With over 5 years of experience
+                        I am a person who likes to research topics that I don't know about in order to increase my knowledge and offer new solutions that are more optimal, precise and concise. I like to work in a team and be able to express my ideas to contribute new functionality to projects.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">
@@ -38,9 +38,10 @@ export const AboutSection = () =>{
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">
-                                    Web Development
+                                    Full-Stack developer
                                 </h4>
-                                <p className="text-muted-foreground">{" "} creating responsive websites modern</p>
+                                <p className="text-muted-foreground">{" "} 
+Creating complex systems using microservices and brokers, all focused on Kubernetes.</p>
                             </div>
                         </div>
                     </div>
@@ -51,9 +52,9 @@ export const AboutSection = () =>{
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">
-                                    Web Development
+                                    Computer Systems Engineer
                                 </h4>
-                                <p className="text-muted-foreground">{" "} creating responsive websites modern</p>
+                                <p className="text-muted-foreground">{" "} Instituto Politecnico Nacional Escuela Superior de computo 2019-2023</p>
                             </div>
                         </div>
                     </div>
@@ -64,9 +65,9 @@ export const AboutSection = () =>{
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">
-                                    Web Development
+                                    Full stack developer in mobile concept
                                 </h4>
-                                <p className="text-muted-foreground">{" "} creating responsive websites modern</p>
+                                <p className="text-muted-foreground">{" "} 2024 - Current</p>
                             </div>
                         </div>
                     </div>

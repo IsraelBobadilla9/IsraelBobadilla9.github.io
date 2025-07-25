@@ -9,8 +9,8 @@ export const ContactSection = () =>{
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                     Get In <span className="text-primary"> Touch</span>
                 </h2>
-                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    have project in mind or want to collabore
+                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">       
+                Personal data
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div className="space-y-8 ">
@@ -24,7 +24,7 @@ export const ContactSection = () =>{
                                 </div>
                                 <div>
                                     <h4 className="font-medium">Email </h4>
-                                    <a href="mailto:jose@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">jose@gmail.com</a>
+                                    <a href="mailto:jose@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">israel.segundoB@hotmail.com</a>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export const ContactSection = () =>{
                                 </div>
                                 <div>
                                     <h4 className="font-medium">Phone </h4>
-                                    <a href="tel:+1223213" className="text-muted-foreground hover:text-primary transition-colors">+123223</a>
+                                    <a href="tel:+1223213" className="text-muted-foreground hover:text-primary transition-colors">+525531451509</a>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ export const ContactSection = () =>{
                         <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
                         <form className="space-y-6">
                             <div>
-                                <label htmlFor="name" className="block text-sm font-medium mb-2">Your name</label>
+                                <label htmlFor="name" className="block text-sm font-medium mb-2">Israel Segundo</label>
                                 <input type="text" id="name" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                                 placeholder="jose pere"
                                 />
@@ -71,7 +71,7 @@ export const ContactSection = () =>{
                             <div>
                                 <label htmlFor="email" className="block text-sm font-medium mb-2">Your Email</label>
                                 <input type="email" id="email" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                                placeholder="jose@gmail.com"
+                                placeholder="israel@gmail.com"
                                 />
                             </div>
 
