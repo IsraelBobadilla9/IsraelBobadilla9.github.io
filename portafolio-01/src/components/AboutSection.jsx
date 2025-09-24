@@ -15,7 +15,7 @@ export const AboutSection = () =>{
                     </h3>
                     <p className="text-muted-foreground">
                         {" "}
-                       With over three years of experience as a full-stack developer, focused on creating systems that require high availability, as well as process optimization and automation, all with cutting-edge technologies.
+                       With over three years of experience as a full-stack developer, focused on creating systems that require high availability, as well as process optimization and automation, all with cutting-edge technologies. As well as process optimization using performance tools such as JConsole, Jprofile, VisualVM for JVM optimization and using Kubernetes to save resources and obtain high availability in services.I like databases, so I always try to optimize my queries and tables as best as possible.
                     </p>
                     <p className="text-muted-foreground">
                         {" "}

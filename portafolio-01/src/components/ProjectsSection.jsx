@@ -2,31 +2,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
     {
-        id: 1,
-        title:"Storage Guitar",
-        description:" site where you cand sell guitars",
-        image:"/projects/project1.png",
-        tags: ["React","Boostrap"],
-        demoUrl:"#",
+        id: 4,
+        title:"Buscador de bebidas",
+        description:"Website specialized in cocktails, allows you to enter any alcoholic beverage and using a specific category allows you to search for all recipes related to the selected categories.",
+        image:"/projects/buscador.png",
+        tags: ["React","TailwindCSS"],
+        demoUrl:"https://jade-gumption-04034e.netlify.app/",
         githubUrl:"#"
     },
     {
-        id: 2,
-        title:"Storage Guitar",
-        description:" site where you cand sell guitars",
-        image:"/projects/project1.png",
-        tags: ["React","Boostrap"],
-        demoUrl:"#",
+        id: 5,
+        title:"Contador de calorias",
+        description:"Project carried out in react to be able to count the calories that a person has consumed daily, in addition to being able to record activities that burn said calories, this allows people to keep their diet in balance",
+        image:"/projects/contador.png",
+        tags: ["React","TailwindCSS"],
+        demoUrl:"https://lovely-naiad-d4eab0.netlify.app/",
         githubUrl:"#"
     },
     {
-        id: 3,
-        title:"Storage Guitar",
-        description:" site where you cand sell guitars",
-        image:"/projects/project1.png",
-        tags: ["React","Boostrap"],
-        demoUrl:"#",
-        githubUrl:"#"
+        id: 6,
+        title:"Agenda Universal",
+        description:"This project was created while I was in college. It's built with PHP for the backend and purely with JS and SASS for the frontend. It allows users to schedule events to remind them of them, as well as real-time notifications so they can be aware of upcoming activities. Note: The backend could not be uploaded due to the need to host a server.",
+        image:"/projects/agenda.png",
+        tags: ["PHP","Javascript","MySQL","SASS"],
+        demoUrl:"https://eager-goldstine-91342c.netlify.app/",
+        githubUrl:"https://github.com/danbobadilla9/IngenieriaSoftware"
     }
 ]
 

@@ -60,11 +60,12 @@ export const ContactSection = () =>{
 
                     <div className="bg-card p-8 rounded-lg shadow-xs">
                         <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
+                        <p className=" font-semibold mb-6">(No working,i dont have money to pay the service)</p>
                         <form className="space-y-6">
                             <div>
-                                <label htmlFor="name" className="block text-sm font-medium mb-2">Israel Segundo</label>
+                                <label htmlFor="name" className="block text-sm font-medium mb-2">Your Name</label>
                                 <input type="text" id="name" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                                placeholder="jose pere"
+                                placeholder="Israel Bobadilla"
                                 />
                             </div>
 

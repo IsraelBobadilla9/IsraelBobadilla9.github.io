@@ -18,6 +18,8 @@ const skills = [
     {name: "Spring Security", level:90, category: "backend"},
     {name: "PostgreSQL", level:100, category: "backend"},
     {name: "SQL Server", level:100, category: "backend"},
+    {name: "Apache Camel", level:100, category: "backend"},
+    {name: "JMS", level:100, category: "backend"},
 
     {name: "Git/Github", level:100, category: "tools"},
     {name: "Docker", level:100, category: "tools"},
@@ -27,6 +29,9 @@ const skills = [
     {name: "JMeter", level:80, category: "tools"},
     {name: "Postman", level:100, category: "tools"},
     {name: "SOAPGuio", level:100, category: "tools"},
+    {name: "JConsole", level:100, category: "tools"},
+    {name: "JProfiler", level:70, category: "tools"},
+    {name: "VisualVM", level:100, category: "tools"},
 
 
 ]
@@ -49,7 +54,7 @@ export const SkillsSection = () =>{
                 {categories.map((category,key) =>(
                     <button key={key} 
                     onClick={() => setActiveCategory(category)}
-                    className={cn("px-5 py-2 rounded-full transition-colors duration-300 capitalize",
+                    className={cn("px-5 py-2 rounded-full transition-colors duration-300 capitalize cursor-pointer",
                         activeCategory === category ? "bg-primary text-primary-foreground" : "dg-secondary/70 text-forefround hover:bd-secondary" 
                     )}>
                         {category}
